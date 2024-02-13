@@ -1,0 +1,39 @@
+How to use RgDelete command mode
+
+command options
+
+"/p"  : path 
+"/m"  : del_method , 0: fast, 1:random, 2:dod3 , 3:dod7, 4:32overwrite
+"/d"  : date 
+"/t"  : time 
+"/r"  : regular scheduling erase , DAILY, WEEKLY, MONTHLY
+"/s"  : security key, "PD5FC"
+"/tn" : taskName to delete
+"/th" : trashBin erase "y","n" : default is "n"
+"/lg" : writeLog "y" , "n" : default is "n"
+"/de" : roor directory erase option in case of folder erasing "y", "n" : default is "y"
+
+for UI settings
+"/df_de" : default_dir_erase , "1","0" 
+"/df_t"  : default_time  , "0" - "4"
+"/df_m"  : default_method , "0" - "4"
+
+
+example)
+UI run with default values
+RgDelete.exe /s PD5FC /df_m 1 /df_t 0 /df_de 0 /lg y 
+RgDelete.exe /s PD5FC /df_m 1 /df_t 0 /df_de 1 /lg y 
+
+Command Delete
+RgDelete.exe /s PD5FC /p "E:\sample.txt" /m 1 /lg y
+RgDelete.exe /s PD5FC /p "E:\sample.txt" /m 1 /tn "7C24FC33-B2D0-4D12-9B76-AB933B20E68D" /lg y
+
+Recylce bin delete
+RgDelete.exe /s PD5FC /p "c:\$Recycle.Bin" /m 1 /th y /lg y
+RgDelete.exe /s PD5FC /th y /m 1 /lg y
+
+Scheduled delete
+RgDelete.exe /s PD5FC /p "c:\$Recycle.Bin" /m 1 /d 2015-07-28 /t 12:00 lg y
+
+Regular scheduled delete
+RgDelete.exe /s PD5FC /p "E:\sample.txt" /m 1 /r DAILY /t 12:00 /de y /lg y

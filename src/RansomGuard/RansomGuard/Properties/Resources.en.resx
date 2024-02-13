@@ -1,0 +1,1129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Remove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icon\Remove.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icon\main.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rgLogs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\LogViewer\rgLogs;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ResetSettings" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="ResetDoneMsg" xml:space="preserve">
+    <value>Data has been initialized.</value>
+  </data>
+  <data name="MenuExit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="MenuAbout" xml:space="preserve">
+    <value>About Ransom Guard</value>
+  </data>
+  <data name="Add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icon\Add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ResetWarninigMsg" xml:space="preserve">
+    <value>Existing settings will be deleted, Do you want to continue?</value>
+  </data>
+  <data name="Sync" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icon\Sync.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FileExtValidError" xml:space="preserve">
+    <value>It's not valid file extentions.
+Please check the file extensions.</value>
+  </data>
+  <data name="ProtectFileExt" xml:space="preserve">
+    <value>File Extensions</value>
+  </data>
+  <data name="FilterConnectionError" xml:space="preserve">
+    <value>Couldn't open the Safecase correctly.
+The program components might not have installed correcly.</value>
+  </data>
+  <data name="FolderLockFree" xml:space="preserve">
+    <value>Unlock the Folder</value>
+  </data>
+  <data name="FolderLockFreeMsg" xml:space="preserve">
+    <value>The folder is unlocked successfully.</value>
+  </data>
+  <data name="FolderLockOkMsg" xml:space="preserve">
+    <value>The folder is locked successfully.
+The folder can be unlocked through the program menu.</value>
+  </data>
+  <data name="FolderLockSet" xml:space="preserve">
+    <value>Folder Lock</value>
+  </data>
+  <data name="FolderSetErrorMsg" xml:space="preserve">
+    <value>User folder itself can't be set correctly.</value>
+  </data>
+  <data name="PasswordErrorMsg" xml:space="preserve">
+    <value>The password is too short.
+It must be between 4 and 12 characters.</value>
+  </data>
+  <data name="PasswordWroungMsg" xml:space="preserve">
+    <value>The password is not correct.</value>
+  </data>
+  <data name="SelectFolder" xml:space="preserve">
+    <value>Select a folder to lock</value>
+  </data>
+  <data name="EmptyFolderText" xml:space="preserve">
+    <value>Please select a folder to lock.</value>
+  </data>
+  <data name="MenuLogs" xml:space="preserve">
+    <value>Program Logs</value>
+  </data>
+  <data name="LogPrAllow" xml:space="preserve">
+    <value>Allow the process to write.</value>
+  </data>
+  <data name="LogPrBlock" xml:space="preserve">
+    <value>Deny the process to write.</value>
+  </data>
+  <data name="LogPrForcedKill" xml:space="preserve">
+    <value>Forced to terminate the process.</value>
+  </data>
+  <data name="LogPrGentleKill" xml:space="preserve">
+    <value>Requested to close the process.</value>
+  </data>
+  <data name="LogProgramExit" xml:space="preserve">
+    <value>Program exit</value>
+  </data>
+  <data name="LogProgramStart" xml:space="preserve">
+    <value>Program start</value>
+  </data>
+  <data name="LogPrWatch" xml:space="preserve">
+    <value>Select the process to trace</value>
+  </data>
+  <data name="LogPrWriteAllow" xml:space="preserve">
+    <value>Allow the process to write</value>
+  </data>
+  <data name="LogPrWriteBlock" xml:space="preserve">
+    <value>Deny the process to write</value>
+  </data>
+  <data name="LogPrWriteWatch" xml:space="preserve">
+    <value>Trace the process</value>
+  </data>
+  <data name="LogReleaseFolderLock" xml:space="preserve">
+    <value>Unlock the folder</value>
+  </data>
+  <data name="LogReset" xml:space="preserve">
+    <value>Reset to default settings</value>
+  </data>
+  <data name="LogSetExtentions" xml:space="preserve">
+    <value>Set file extensions</value>
+  </data>
+  <data name="LogSetFolderLock" xml:space="preserve">
+    <value>Folder lock</value>
+  </data>
+  <data name="F_Pref_ApplyBtn" xml:space="preserve">
+    <value>Apply &amp;&amp; Close</value>
+  </data>
+  <data name="F_Pref_LangSet" xml:space="preserve">
+    <value>Set Language</value>
+  </data>
+  <data name="F_Pref_Warning" xml:space="preserve">
+    <value>Set Warning Level</value>
+  </data>
+  <data name="F_Pref_ShowAllWanring" xml:space="preserve">
+    <value>Show all processes</value>
+  </data>
+  <data name="F_Pref_ShowNonCerificate" xml:space="preserve">
+    <value>Show only non signed processes</value>
+  </data>
+  <data name="MenuPreferences" xml:space="preserve">
+    <value>Preferences</value>
+  </data>
+  <data name="F_Exts_Btn_Add" xml:space="preserve">
+    <value>Add  </value>
+  </data>
+  <data name="F_Exts_Btn_Close" xml:space="preserve">
+    <value>Apply &amp;&amp; Close</value>
+  </data>
+  <data name="F_Exts_Btn_Remove" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="F_Exts_Label1" xml:space="preserve">
+    <value>Please add file extensions to protect.</value>
+  </data>
+  <data name="F_Exts_Label2" xml:space="preserve">
+    <value>These file extensions are protected.</value>
+  </data>
+  <data name="F_LockSet_Btn_Browse" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="F_LockSet_Btn_Close" xml:space="preserve">
+    <value>Close </value>
+  </data>
+  <data name="F_LockSet_Btn_Lock" xml:space="preserve">
+    <value>Folder Lock</value>
+  </data>
+  <data name="F_LockSet_Check1" xml:space="preserve">
+    <value>Set Password</value>
+  </data>
+  <data name="F_LockSet_Label1" xml:space="preserve">
+    <value>Please select a folder to lock,
+input your password if it is needed.</value>
+  </data>
+  <data name="F_Lock_Btn_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="F_Lock_Btn_Relese" xml:space="preserve">
+    <value>Unlock the folder</value>
+  </data>
+  <data name="F_Lock_Label1" xml:space="preserve">
+    <value>Please input your password.</value>
+  </data>
+  <data name="F_Trace_Btn_Allow" xml:space="preserve">
+    <value>Allow to write</value>
+  </data>
+  <data name="F_Trace_Btn_Deny" xml:space="preserve">
+    <value>Deny to write</value>
+  </data>
+  <data name="F_Trace_Label1" xml:space="preserve">
+    <value>Process Info.</value>
+  </data>
+  <data name="F_Trace_Label2" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="F_Trace_Label3" xml:space="preserve">
+    <value>Path</value>
+  </data>
+  <data name="F_Trace_Label4" xml:space="preserve">
+    <value>Original file will be saved in this directory while watching.</value>
+  </data>
+  <data name="F_Warn_Btn_Allow" xml:space="preserve">
+    <value>Allow to write</value>
+  </data>
+  <data name="F_Warn_Btn_Deny" xml:space="preserve">
+    <value>Deny to write</value>
+  </data>
+  <data name="F_Warn_Btn_Watch" xml:space="preserve">
+    <value>Watch</value>
+  </data>
+  <data name="F_Warn_Label1" xml:space="preserve">
+    <value>The following program tries to modify the file.
+If you know the program press the Allow button
+If it looks suspicious program, please press the Reject button.</value>
+  </data>
+  <data name="F_Warn_Label2" xml:space="preserve">
+    <value>The file which is to be modified.</value>
+  </data>
+  <data name="F_Warn_Label3" xml:space="preserve">
+    <value>The process which is tring to modify the file.</value>
+  </data>
+  <data name="F_Warn_Label4" xml:space="preserve">
+    <value>Check the web link for more information</value>
+  </data>
+  <data name="F_Exts_Added" xml:space="preserve">
+    <value>Added file extensions</value>
+  </data>
+  <data name="F_Exts_Data" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="F_Exts_Db" xml:space="preserve">
+    <value>Database</value>
+  </data>
+  <data name="F_Exts_Doc" xml:space="preserve">
+    <value>Document</value>
+  </data>
+  <data name="F_Exts_ExistExtsErrorMsg" xml:space="preserve">
+    <value>The file extention is already exist.
+Please check it again.</value>
+  </data>
+  <data name="F_Exts_FindErrorMsg" xml:space="preserve">
+    <value>The extention to remove is not found.
+Please check it again.</value>
+  </data>
+  <data name="F_Exts_MaxExtsErrorMsg1" xml:space="preserve">
+    <value>The maximum number of file extensions is</value>
+  </data>
+  <data name="F_Exts_MaxExtsErrorMsg2" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="F_Exts_Media" xml:space="preserve">
+    <value>Media</value>
+  </data>
+  <data name="F_Exts_Program" xml:space="preserve">
+    <value>Program</value>
+  </data>
+  <data name="F_Exts_Src" xml:space="preserve">
+    <value>Program source</value>
+  </data>
+  <data name="F_Exts_Web" xml:space="preserve">
+    <value>Web source</value>
+  </data>
+  <data name="F_Trace_FilePath" xml:space="preserve">
+    <value>The modified file</value>
+  </data>
+  <data name="F_Trace_Time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="F_Warn_Danger" xml:space="preserve">
+    <value>risky program</value>
+  </data>
+  <data name="F_Warn_File_content" xml:space="preserve">
+    <value>Contents</value>
+  </data>
+  <data name="F_Warn_File_Mod" xml:space="preserve">
+    <value>Last modified</value>
+  </data>
+  <data name="F_Warn_File_Name" xml:space="preserve">
+    <value>Filename </value>
+  </data>
+  <data name="F_Warn_File_Path" xml:space="preserve">
+    <value>The file path</value>
+  </data>
+  <data name="F_Warn_File_Size" xml:space="preserve">
+    <value>The file size</value>
+  </data>
+  <data name="F_Warn_File_title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="F_Warn_NoSign" xml:space="preserve">
+    <value>There is no signature information (risky program) </value>
+  </data>
+  <data name="F_Warn_Pr_Content" xml:space="preserve">
+    <value>contents</value>
+  </data>
+  <data name="F_Warn_Pr_Defender" xml:space="preserve">
+    <value>Windows Defender</value>
+  </data>
+  <data name="F_Warn_Pr_Des" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="F_Warn_Pr_Detail" xml:space="preserve">
+    <value>Detail</value>
+  </data>
+  <data name="F_Warn_Pr_Install" xml:space="preserve">
+    <value>Installed date</value>
+  </data>
+  <data name="F_Warn_Pr_Name" xml:space="preserve">
+    <value>Process name</value>
+  </data>
+  <data name="F_Warn_Pr_Path" xml:space="preserve">
+    <value>Executable path</value>
+  </data>
+  <data name="F_Warn_Pr_Sign" xml:space="preserve">
+    <value>Digital Signature</value>
+  </data>
+  <data name="F_Warn_Pr_Sing_Ins" xml:space="preserve">
+    <value>Certificate Authority</value>
+  </data>
+  <data name="F_Warn_Pr_Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="F_Pref_ShowCloudWanring" xml:space="preserve">
+    <value>Use cloud service</value>
+  </data>
+  <data name="LogMalwareFix" xml:space="preserve">
+    <value>Malware was fixed</value>
+  </data>
+  <data name="LogMalwareFixFailed" xml:space="preserve">
+    <value>Failed to fix.</value>
+  </data>
+  <data name="LogPrTrustedAllow" xml:space="preserve">
+    <value>Auto allowed the process.</value>
+  </data>
+  <data name="BalloonTip_MalwareFixed" xml:space="preserve">
+    <value>Malware was detected and fixed</value>
+  </data>
+  <data name="BalloonTip_MalwareFixFailed" xml:space="preserve">
+    <value>Failed to fix the malware</value>
+  </data>
+  <data name="F_Send_CloudInfo" xml:space="preserve">
+    <value>Cloud information</value>
+  </data>
+  <data name="F_Send_Level" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="F_Send_SendError" xml:space="preserve">
+    <value>Sorry. There is a problem connecting to the server.</value>
+  </data>
+  <data name="F_Send_Signature" xml:space="preserve">
+    <value>File signature</value>
+  </data>
+  <data name="F_Send_Thanks" xml:space="preserve">
+    <value>Thank you for your participation.</value>
+  </data>
+  <data name="Info_CriticalVirus" xml:space="preserve">
+    <value>Critical virus file.</value>
+  </data>
+  <data name="Info_KnownPubliher" xml:space="preserve">
+    <value>Well known publisher.</value>
+  </data>
+  <data name="Info_LooksMalware" xml:space="preserve">
+    <value>Looks like malware.</value>
+  </data>
+  <data name="Info_LooksNotMalware" xml:space="preserve">
+    <value>Looks like it's not malware.</value>
+  </data>
+  <data name="Info_NotMalwareBut" xml:space="preserve">
+    <value>Not malware but it's affect the performance of your computer.</value>
+  </data>
+  <data name="Info_Ransomware" xml:space="preserve">
+    <value>It is ransomware.</value>
+  </data>
+  <data name="Info_Trustworthy" xml:space="preserve">
+    <value>It is a reliable file..</value>
+  </data>
+  <data name="Info_Unknown" xml:space="preserve">
+    <value>It's an unknown file.</value>
+  </data>
+  <data name="Info_UnknownPubliher" xml:space="preserve">
+    <value>The source of the file is unclear.</value>
+  </data>
+  <data name="Info_Virus" xml:space="preserve">
+    <value>It's virus file.</value>
+  </data>
+  <data name="Info_WeiredBehavior" xml:space="preserve">
+    <value>Risky behavior, need to be careful.</value>
+  </data>
+  <data name="Info_WindowsFile" xml:space="preserve">
+    <value>Basic Windows file.</value>
+  </data>
+  <data name="Level_LooksMalware" xml:space="preserve">
+    <value>It may contains malicious code</value>
+  </data>
+  <data name="Level_LooksSafe" xml:space="preserve">
+    <value>Look like safe file.</value>
+  </data>
+  <data name="Level_Malware" xml:space="preserve">
+    <value>It's an malware file.</value>
+  </data>
+  <data name="Level_Safe" xml:space="preserve">
+    <value>Safe file.</value>
+  </data>
+  <data name="Level_Unknown" xml:space="preserve">
+    <value>Unknown file.</value>
+  </data>
+  <data name="CloseOpenedForm" xml:space="preserve">
+    <value>Please close all the forms.</value>
+  </data>
+  <data name="MenuSpyware" xml:space="preserve">
+    <value>Spyware Settings</value>
+  </data>
+  <data name="F_Net_Bt_Allow" xml:space="preserve">
+    <value>Allow Network Access</value>
+  </data>
+  <data name="F_Net_Bt_Block" xml:space="preserve">
+    <value>Deny Network Access</value>
+  </data>
+  <data name="F_Net_Bt_Remove" xml:space="preserve">
+    <value>Remove Items</value>
+  </data>
+  <data name="F_Net_Bt_Send" xml:space="preserve">
+    <value>Send Process Info.</value>
+  </data>
+  <data name="F_Net_Desc" xml:space="preserve">
+    <value>Once you block the applications to access network, the applications can't use network resources like internet.</value>
+  </data>
+  <data name="F_Net_Hide" xml:space="preserve">
+    <value>Hide Windows processes and safe processes.</value>
+  </data>
+  <data name="F_Net_IpInfo" xml:space="preserve">
+    <value>Local Network In Use</value>
+  </data>
+  <data name="F_Net_List_Col_Au" xml:space="preserve">
+    <value>Permission</value>
+  </data>
+  <data name="F_Net_List_Col_Cer" xml:space="preserve">
+    <value>Digital certificate</value>
+  </data>
+  <data name="F_Net_List_Col_Cloud" xml:space="preserve">
+    <value>Cloud info.</value>
+  </data>
+  <data name="F_Net_List_Col_Ip" xml:space="preserve">
+    <value>Remote ip</value>
+  </data>
+  <data name="F_Net_List_Col_LtAc" xml:space="preserve">
+    <value>Last access time</value>
+  </data>
+  <data name="F_Net_List_Col_Path" xml:space="preserve">
+    <value>Process path</value>
+  </data>
+  <data name="F_Net_List_Col_PcPort" xml:space="preserve">
+    <value>PC port</value>
+  </data>
+  <data name="F_Net_List_Col_Pr" xml:space="preserve">
+    <value>Process</value>
+  </data>
+  <data name="F_Net_List_Col_RePort" xml:space="preserve">
+    <value>Remote port</value>
+  </data>
+  <data name="F_Net_List_Col_State" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="F_Net_Msg_ErrGetPr" xml:space="preserve">
+    <value>Failure to retrieve process data</value>
+  </data>
+  <data name="F_Net_Msg_NetAllow" xml:space="preserve">
+    <value>Selected processes will be allowed to access the network resources.</value>
+  </data>
+  <data name="F_Net_Msg_NetDeny" xml:space="preserve">
+    <value>Selected processes will be restricted to access the network resources.</value>
+  </data>
+  <data name="F_Net_Msg_NetRev" xml:space="preserve">
+    <value>Selected processes will be removed from the list.</value>
+  </data>
+  <data name="F_Net_Msg_Sel_One" xml:space="preserve">
+    <value>Please select a single process to remove from the list.</value>
+  </data>
+  <data name="F_Net_Msg_Sel_Pr" xml:space="preserve">
+    <value>You forgot to select a process.</value>
+  </data>
+  <data name="F_Net_Title" xml:space="preserve">
+    <value>Detecting spyware and network settings</value>
+  </data>
+  <data name="F_Pref_Combo_NoWarning" xml:space="preserve">
+    <value>Do not show spyware warning message</value>
+  </data>
+  <data name="F_Pref_SpywareWarning" xml:space="preserve">
+    <value>Settings for spyware warning</value>
+  </data>
+  <data name="BalloonTip_FirewallText" xml:space="preserve">
+    <value>Windows Firewall needs to be turned on 
+to use all features of Ransomguard.</value>
+  </data>
+  <data name="BalloonTip_FirewallTitle" xml:space="preserve">
+    <value>Windows Firewall is turned off</value>
+  </data>
+  <data name="F_Geo_BtnClose" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="F_Geo_BtnMap" xml:space="preserve">
+    <value>Show Map</value>
+  </data>
+  <data name="F_Geo_Desc" xml:space="preserve">
+    <value>IP based location can be inaccurate by the circumstances.</value>
+  </data>
+  <data name="F_Geo_Time" xml:space="preserve">
+    <value>Last accessed time</value>
+  </data>
+  <data name="F_Geo_Title" xml:space="preserve">
+    <value>IP Location Service</value>
+  </data>
+  <data name="F_Net_Bt_Geo" xml:space="preserve">
+    <value>IP Location</value>
+  </data>
+  <data name="F_Net_Msg_IpErr" xml:space="preserve">
+    <value>It's not available ip address.</value>
+  </data>
+  <data name="F_Net_Msg_ServerErr" xml:space="preserve">
+    <value>Failure to retrieve geolocation data.</value>
+  </data>
+  <data name="MenuExitWarning" xml:space="preserve">
+    <value>Do you really want to exit?</value>
+  </data>
+  <data name="F_Warn_Check_Skip" xml:space="preserve">
+    <value>Allow all processes automatically within an hour </value>
+  </data>
+  <data name="F_Warn_Label5" xml:space="preserve">
+    <value>It's to ignore the warning message during the program installation.</value>
+  </data>
+  <data name="LogPrUserAutoAllow" xml:space="preserve">
+    <value>User auto allowed the process.</value>
+  </data>
+  <data name="MenuUtils" xml:space="preserve">
+    <value>File Tools</value>
+  </data>
+  <data name="MenuUtilsBackup" xml:space="preserve">
+    <value>Backup and Sync</value>
+  </data>
+  <data name="MenuUtilsCrypt" xml:space="preserve">
+    <value>Encryption/Decryption</value>
+  </data>
+  <data name="MenuUtilsShredder" xml:space="preserve">
+    <value>File Shredder</value>
+  </data>
+  <data name="MenuUtilsTrashBin" xml:space="preserve">
+    <value>Recycle Bin Eraser</value>
+  </data>
+  <data name="F_Del_Box_ScheDel" xml:space="preserve">
+    <value>Scheduled Erase</value>
+  </data>
+  <data name="F_Del_Btn_AddFiles" xml:space="preserve">
+    <value>Add Files</value>
+  </data>
+  <data name="F_Del_Btn_CancelSche" xml:space="preserve">
+    <value>Cancel Scheduled Erase Job</value>
+  </data>
+  <data name="F_Del_Btn_DelFiles" xml:space="preserve">
+    <value>Shredder Files</value>
+  </data>
+  <data name="F_Del_Btn_RmItems" xml:space="preserve">
+    <value>Remove Items</value>
+  </data>
+  <data name="F_Del_Btn_StopClose" xml:space="preserve">
+    <value>Stop &amp;&amp; Close</value>
+  </data>
+  <data name="F_Del_Btn_UseSche" xml:space="preserve">
+    <value>Use Scheduled Erase</value>
+  </data>
+  <data name="F_Del_Msg_Add_Files" xml:space="preserve">
+    <value>Please add files to delete.</value>
+  </data>
+  <data name="F_Del_Msg_Error_FileInfo" xml:space="preserve">
+    <value>Error for getting file data.</value>
+  </data>
+  <data name="F_Del_Msg_Error_Program" xml:space="preserve">
+    <value>Program components are missing, please install it again.</value>
+  </data>
+  <data name="F_Del_Msg_NotType_Supported" xml:space="preserve">
+    <value>It's not supported file type.</value>
+  </data>
+  <data name="F_Del_Msg_Sche_Canceled" xml:space="preserve">
+    <value>The scheduled erase was canceled.</value>
+  </data>
+  <data name="F_Del_Msg_Sche_Cancel_Warn" xml:space="preserve">
+    <value>Do you want to cancel the scheduled erase?</value>
+  </data>
+  <data name="F_Del_Msg_Start_Warn" xml:space="preserve">
+    <value>Added files will be erased, the files can't be recorverd after the erasing.</value>
+  </data>
+  <data name="F_Del_Msg_Stopped" xml:space="preserve">
+    <value>File erasing has been canceled.</value>
+  </data>
+  <data name="F_Del_Msg_Stop_Warn" xml:space="preserve">
+    <value>Do you want to stop the erasing process?</value>
+  </data>
+  <data name="F_Del_State_Complete" xml:space="preserve">
+    <value>Complete</value>
+  </data>
+  <data name="F_Del_State_Erasing" xml:space="preserve">
+    <value>Erasing...</value>
+  </data>
+  <data name="F_Del_State_Fail" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="F_Del_State_Ready" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="F_Del_Title" xml:space="preserve">
+    <value>File Shredder</value>
+  </data>
+  <data name="F_Del_Title_Sub" xml:space="preserve">
+    <value>Add files or folders to the listbox, deleted files can't be recovered.</value>
+  </data>
+  <data name="F_Del_type_Dir" xml:space="preserve">
+    <value>Directory</value>
+  </data>
+  <data name="F_Del_type_File" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="F_Del_Box_Methods" xml:space="preserve">
+    <value>Erasing Methods</value>
+  </data>
+  <data name="F_Del_Btn_AddFolder" xml:space="preserve">
+    <value>Add Folder</value>
+  </data>
+  <data name="F_Trash_DelAfter" xml:space="preserve">
+    <value>days old files will be deleted automatically.</value>
+  </data>
+  <data name="F_Trash_DelGeneral" xml:space="preserve">
+    <value>General Delete</value>
+  </data>
+  <data name="F_Trash_DelMethod" xml:space="preserve">
+    <value>File Delete Method : </value>
+  </data>
+  <data name="F_Trash_DelSecure" xml:space="preserve">
+    <value>Secure Delete</value>
+  </data>
+  <data name="F_Trash_Sub" xml:space="preserve">
+    <value>Delete Files sitting in the recycle bin after the selected day.</value>
+  </data>
+  <data name="F_Trash_Title" xml:space="preserve">
+    <value>Recycle Bin Management</value>
+  </data>
+  <data name="F_Trash_UseAutoDel" xml:space="preserve">
+    <value>Use Automatically delete files in the recycle bin</value>
+  </data>
+  <data name="F_Crypt_Btn_AddItems" xml:space="preserve">
+    <value>Add Files</value>
+  </data>
+  <data name="F_Crypt_Btn_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="F_Crypt_Btn_Crypt" xml:space="preserve">
+    <value>Encrypt/Decrypt</value>
+  </data>
+  <data name="F_Crypt_Btn_RmItems" xml:space="preserve">
+    <value>Remove Items</value>
+  </data>
+  <data name="F_Crypt_Confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="F_Crypt_Crypting" xml:space="preserve">
+    <value>Working...</value>
+  </data>
+  <data name="F_Crypt_DeComplete" xml:space="preserve">
+    <value>Decryption Complete</value>
+  </data>
+  <data name="F_Crypt_DeFailed" xml:space="preserve">
+    <value>Decryption Failed</value>
+  </data>
+  <data name="F_Crypt_DeWaiting" xml:space="preserve">
+    <value>Waiting to Decrypt</value>
+  </data>
+  <data name="F_Crypt_EnComplete" xml:space="preserve">
+    <value>Encryption Complete</value>
+  </data>
+  <data name="F_Crypt_EnFailed" xml:space="preserve">
+    <value>Encryption Failed</value>
+  </data>
+  <data name="F_Crypt_EnWaiting" xml:space="preserve">
+    <value>Waiting to Encrypt</value>
+  </data>
+  <data name="F_Crypt_Hint" xml:space="preserve">
+    <value>Hint</value>
+  </data>
+  <data name="F_Crypt_Label_AES256" xml:space="preserve">
+    <value>Suitable for the document files, high security</value>
+  </data>
+  <data name="F_Crypt_Label_RC4" xml:space="preserve">
+    <value>Suitable for the media files, fast encryption</value>
+  </data>
+  <data name="F_Crypt_Method" xml:space="preserve">
+    <value>Encryption Methods</value>
+  </data>
+  <data name="F_Crypt_Method_AES256" xml:space="preserve">
+    <value>AES256</value>
+  </data>
+  <data name="F_Crypt_Method_RC4" xml:space="preserve">
+    <value>RC4</value>
+  </data>
+  <data name="F_Crypt_Msg_Cancled" xml:space="preserve">
+    <value>Encryption or Decryption work is canceled.</value>
+  </data>
+  <data name="F_Crypt_Msg_FileExist" xml:space="preserve">
+    <value>Same file name to decrypt or encrypt is exist.</value>
+  </data>
+  <data name="F_Crypt_Msg_FileMissing" xml:space="preserve">
+    <value>File is not found.</value>
+  </data>
+  <data name="F_Crypt_Msg_InputPw" xml:space="preserve">
+    <value>Please input the password to encrypt or decrypt.</value>
+  </data>
+  <data name="F_Crypt_Msg_PwConfirm" xml:space="preserve">
+    <value>Please check the confirmed password.</value>
+  </data>
+  <data name="F_Crypt_Msg_PwError" xml:space="preserve">
+    <value>Password is not correct.</value>
+  </data>
+  <data name="F_Crypt_Msg_PwHint" xml:space="preserve">
+    <value>Password Hint</value>
+  </data>
+  <data name="F_Crypt_Msg_PwLength" xml:space="preserve">
+    <value>Password length should be at least 4digit.</value>
+  </data>
+  <data name="F_Crypt_Msg_SelFiles" xml:space="preserve">
+    <value>Please, add the files first to encrypt or decrypt.</value>
+  </data>
+  <data name="F_Crypt_Msg_StartCrypt" xml:space="preserve">
+    <value>Do you want to start the encryption or decryption for the selected files?</value>
+  </data>
+  <data name="F_Crypt_Msg_StopCrypt" xml:space="preserve">
+    <value>Do you want to cancel the work?</value>
+  </data>
+  <data name="F_Crypt_Msg_UnknownError" xml:space="preserve">
+    <value>The work is canceled since there are unknown errors.</value>
+  </data>
+  <data name="F_Crypt_Option" xml:space="preserve">
+    <value>(Optional)</value>
+  </data>
+  <data name="F_Crypt_Pw" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="F_Crypt_SetPw" xml:space="preserve">
+    <value>Encryption Settings</value>
+  </data>
+  <data name="F_Crypt_SubTitle" xml:space="preserve">
+    <value>Add files by clicking the add button, the encrypted files can't be recovered.</value>
+  </data>
+  <data name="F_Crypt_Title" xml:space="preserve">
+    <value>Encyption and Decryption for Files and Folders</value>
+  </data>
+  <data name="F_Crypt_UseDelete" xml:space="preserve">
+    <value>Delete source file after the encryption or decryption.</value>
+  </data>
+  <data name="F_Exts_Script" xml:space="preserve">
+    <value>Shell script</value>
+  </data>
+  <data name="F_Pref_NoContextMenu" xml:space="preserve">
+    <value>Do Not Use Mouse Right Click Menu</value>
+  </data>
+  <data name="F_Pref_UseContextMenu" xml:space="preserve">
+    <value>Use Mouse Right Click Menu</value>
+  </data>
+  <data name="F_Pref_Label_MouseMenu" xml:space="preserve">
+    <value>Mouse right click menu setting</value>
+  </data>
+  <data name="CloseSfComplete" xml:space="preserve">
+    <value>SafeCase was closed successfully.</value>
+  </data>
+  <data name="FailedOpenSafeCase" xml:space="preserve">
+    <value>Failed to open the safecase file.</value>
+  </data>
+  <data name="F_SfPw_InputPw" xml:space="preserve">
+    <value>Please input password.</value>
+  </data>
+  <data name="F_Wait_CreateComplete" xml:space="preserve">
+    <value>SafeCase is created successfully.</value>
+  </data>
+  <data name="F_Wait_CreateError" xml:space="preserve">
+    <value>An unknown error has occurred.
+Please check if same file is existing.</value>
+  </data>
+  <data name="F_Wait_Des" xml:space="preserve">
+    <value>Please wait, it will take several seconds.</value>
+  </data>
+  <data name="F_Wait_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="F_Wait_SettingsComplete" xml:space="preserve">
+    <value>Settings are applied successfully.</value>
+  </data>
+  <data name="F_Wait_SettingsError" xml:space="preserve">
+    <value>An unknown error has occurred.</value>
+  </data>
+  <data name="InputPw_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="InputPw_DoNotAskPw" xml:space="preserve">
+    <value>Do not ask the password on this computer.</value>
+  </data>
+  <data name="InputPw_FailedPw" xml:space="preserve">
+    <value>It's invalid password. Please try again.
+Password Hint</value>
+  </data>
+  <data name="InputPw_Open" xml:space="preserve">
+    <value>Open SafeCase</value>
+  </data>
+  <data name="MenuHelp" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="MenuSafeCase" xml:space="preserve">
+    <value>SafeCase</value>
+  </data>
+  <data name="MenuSafeCaseClose" xml:space="preserve">
+    <value>Close SafeCase</value>
+  </data>
+  <data name="MenuSafeCaseCreate" xml:space="preserve">
+    <value>Create SafeCase</value>
+  </data>
+  <data name="MenuSafeCaseInUse" xml:space="preserve">
+    <value>SafeCase is in use ...</value>
+  </data>
+  <data name="MenuSafeCaseLog" xml:space="preserve">
+    <value>SafeCase log</value>
+  </data>
+  <data name="MenuSafeCaseOpen" xml:space="preserve">
+    <value>Open SafeCase</value>
+  </data>
+  <data name="MenuSafeCaseSet" xml:space="preserve">
+    <value>SafeCase Settings</value>
+  </data>
+  <data name="SafeCaseAlreadyInUse" xml:space="preserve">
+    <value>SafeCase is already in use.
+Please closed current SafeCase first.</value>
+  </data>
+  <data name="F_Sfc_AES256" xml:space="preserve">
+    <value>AES256( powerful encryption method)</value>
+  </data>
+  <data name="F_Sfc_Btn_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="F_Sfc_Btn_Create" xml:space="preserve">
+    <value>Create Safecase</value>
+  </data>
+  <data name="F_Sfc_Btn_Path" xml:space="preserve">
+    <value>Set File Path</value>
+  </data>
+  <data name="F_Sfc_MaxSize" xml:space="preserve">
+    <value>Maximum available size</value>
+  </data>
+  <data name="F_Sfc_Method" xml:space="preserve">
+    <value>Encryption method for the contents in safecase</value>
+  </data>
+  <data name="F_Sfc_Msg_InputPath" xml:space="preserve">
+    <value>Please input the path to save the safecase image.</value>
+  </data>
+  <data name="F_Sfc_Msg_InputSfName" xml:space="preserve">
+    <value>Please type the label of safecase.</value>
+  </data>
+  <data name="F_Sfc_Msg_InvaildPw" xml:space="preserve">
+    <value>It's not available password.
+Password should have include a special character or number and longer than 8.</value>
+  </data>
+  <data name="F_Sfc_Msg_InvalidNamePath" xml:space="preserve">
+    <value>Alphabet and special characters like "()-_."  will be allowed in the label and path.</value>
+  </data>
+  <data name="F_Sfc_Msg_NotPwConfirm" xml:space="preserve">
+    <value>Confirmed password is not correct.</value>
+  </data>
+  <data name="F_Sfc_Name" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="F_Sfc_None" xml:space="preserve">
+    <value>No encryption ( password can be changeable)</value>
+  </data>
+  <data name="F_Sfc_Path" xml:space="preserve">
+    <value>File Path</value>
+  </data>
+  <data name="F_Sfc_Pw" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="F_Sfc_PwConfirm" xml:space="preserve">
+    <value>Comfirm Pw</value>
+  </data>
+  <data name="F_Sfc_PwHint" xml:space="preserve">
+    <value>Password Hint</value>
+  </data>
+  <data name="F_Sfc_PwSettings" xml:space="preserve">
+    <value>Set Password</value>
+  </data>
+  <data name="F_Sfc_RC4" xml:space="preserve">
+    <value>RC4( Fast and stable encryption method)</value>
+  </data>
+  <data name="F_Sfc_Settings" xml:space="preserve">
+    <value>Safecase Settings</value>
+  </data>
+  <data name="F_Sfc_SubTitle" xml:space="preserve">
+    <value>Safecase is a virtual HDD image file and it support transparent encryption.</value>
+  </data>
+  <data name="F_Sfc_Title" xml:space="preserve">
+    <value>Creating Safecase</value>
+  </data>
+  <data name="F_Sfc_Warning" xml:space="preserve">
+    <value>Caution : Safecase can not restored without the password.</value>
+  </data>
+  <data name="F_Sfs_ChPassword" xml:space="preserve">
+    <value>Change the password</value>
+  </data>
+  <data name="F_Sfs_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="F_Sfs_CurPw" xml:space="preserve">
+    <value>Current pw</value>
+  </data>
+  <data name="F_Sfs_Label" xml:space="preserve">
+    <value>Safecase</value>
+  </data>
+  <data name="F_Sfs_Msg_Confrim" xml:space="preserve">
+    <value>Do you want to save the options? The safecase will be reopened.</value>
+  </data>
+  <data name="F_Sfs_Msg_InvalidPw" xml:space="preserve">
+    <value>It's not available password.
+Password should have include a special character or number and longer than 8.</value>
+  </data>
+  <data name="F_Sfs_Msg_NotCurPw" xml:space="preserve">
+    <value>Current password is not correct, please check it again.</value>
+  </data>
+  <data name="F_Sfs_Msg_NotPw" xml:space="preserve">
+    <value>Confirmed password is not correct.</value>
+  </data>
+  <data name="F_Sfs_NewPw" xml:space="preserve">
+    <value>New password</value>
+  </data>
+  <data name="F_Sfs_NewPwConfirm" xml:space="preserve">
+    <value>Confirm pw</value>
+  </data>
+  <data name="F_Sfs_NewPwHint" xml:space="preserve">
+    <value>Password hint</value>
+  </data>
+  <data name="F_Sfs_OpLog" xml:space="preserve">
+    <value>Save the log of files in safecase.</value>
+  </data>
+  <data name="F_Sfs_OpNoPw" xml:space="preserve">
+    <value>Do not ask the password on this computer.</value>
+  </data>
+  <data name="F_Sfs_OpReadOnly" xml:space="preserve">
+    <value>Read only mode.(Files can't be deleted or edited).</value>
+  </data>
+  <data name="F_Sfs_OpStOpen" xml:space="preserve">
+    <value>Open the safecase automatically when Windows start.</value>
+  </data>
+  <data name="F_Sfs_Save" xml:space="preserve">
+    <value>Save Settings</value>
+  </data>
+  <data name="F_Sfs_Settings" xml:space="preserve">
+    <value>Safecase options</value>
+  </data>
+  <data name="F_Sfs_Title" xml:space="preserve">
+    <value>SafeCase Settings</value>
+  </data>
+  <data name="F_Sfs_Warning" xml:space="preserve">
+    <value>Warning : Safecase will be closed and open again when save the settings.</value>
+  </data>
+  <data name="Log_Viewer_LogContents" xml:space="preserve">
+    <value>Contents of the Log file:</value>
+  </data>
+  <data name="Log_Viewer_LogFolderPathAndText" xml:space="preserve">
+    <value>Please Select a log file in the foler of</value>
+  </data>
+  <data name="Log_Viewer_ThDateTime" xml:space="preserve">
+    <value>Time and Date</value>
+  </data>
+  <data name="Log_Viewer_ThEtc" xml:space="preserve">
+    <value>Etc</value>
+  </data>
+  <data name="Log_Viewer_ThFilePath" xml:space="preserve">
+    <value>File Path</value>
+  </data>
+  <data name="Log_Viewer_ThLogType" xml:space="preserve">
+    <value>Log Type</value>
+  </data>
+  <data name="Log_Viewer_ThProcess" xml:space="preserve">
+    <value>Process</value>
+  </data>
+  <data name="Log_Viewer_ThProcessPath" xml:space="preserve">
+    <value>Process Path</value>
+  </data>
+  <data name="SafecaseFilterConnectionError" xml:space="preserve">
+    <value>Can't connect to safecase filter.</value>
+  </data>
+  <data name="F_Sfs_OpcbExDate" xml:space="preserve">
+    <value>Set expiry date of current Safecase</value>
+  </data>
+  <data name="F_Sfs_OpCopyPrt" xml:space="preserve">
+    <value>Enable copy protection</value>
+  </data>
+  <data name="F_Sfs_OpSettingRes" xml:space="preserve">
+    <value>Only this computer can change the Safecase settings</value>
+  </data>
+  <data name="F_Sfs_Msg_NotCurPc" xml:space="preserve">
+    <value>You can't change the settings on this computer.</value>
+  </data>
+  <data name="F_Trash_Btn_IconSettings" xml:space="preserve">
+    <value>Desktop Icon Settings</value>
+  </data>
+  <data name="F_Trash_Label_IconSettings" xml:space="preserve">
+    <value>Hide the trash bin icon on your desktop.</value>
+  </data>
+  <data name="F_Pref_DisableRealTimeDetection" xml:space="preserve">
+    <value>Disable real time protection (risky)</value>
+  </data>
+  <data name="F_Pref_EnableRealTimeDetection" xml:space="preserve">
+    <value>Enable real time protection (safe)</value>
+  </data>
+  <data name="F_Pref_LabelRealTimeDetection" xml:space="preserve">
+    <value>Real Time Protection</value>
+  </data>
+</root>

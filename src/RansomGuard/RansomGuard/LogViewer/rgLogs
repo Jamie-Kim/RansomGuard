@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Ransom Guard Log Viewer</title>
+  <script type="text/javascript">
+  var reader;
+
+  function checkFileAPI() {
+    if (window.File && window.FileReader && window.FileList && window.Blob) {
+      reader = new FileReader();
+      return true;
+    } else {
+      alert('The File APIs are not fully supported by your browser. Fallback required.');
+      return false;
+    }
+  }
+  function readText(filePath) {
+    var output = ""; //placeholder for text output
+    if(filePath.files && filePath.files[0]) {
+      reader.onload = function (e) {
+        output = e.target.result;
+        displayContents(output);
+      };
+
+      reader.readAsText(filePath.files[0]);
+    }
+    else if(ActiveXObject && filePath) {
+      try {
+        reader = new ActiveXObject("Scripting.FileSystemObject");
+        var file = reader.OpenTextFile(filePath, 1);
+        output = file.ReadAll();
+        file.Close();
+        displayContents(output);
+      } catch (e) {
+        if (e.number == -2146827859) {
+           alert('Unable to access local files due to browser security settings. ' +
+           'To overcome this, go to Tools->Internet Options->Security->Custom Level. ' +
+           'Find the setting for "Initialize and script ActiveX controls not marked as safe" and change it to "Enable" or "Prompt"');
+        }
+      }
+    }
+    else {
+      return false;
+    }
+    return true;
+  }
+
+  function displayContents(txt) {
+    var lines = txt.split('\n');
+    var table = document.getElementById("table");
+    var rowIndex = 1;
+
+    for(var i = lines.length -2; i >= 0; i--)
+    {
+       obj = JSON.parse(lines[i]);
+
+       for(var j=0; j< obj.length; j++)
+       {
+      var row = table.insertRow(rowIndex++);
+      var cell1 = row.insertCell(0);
+      var cell2 = row.insertCell(1);
+      var cell3 = row.insertCell(2);
+      var cell4 = row.insertCell(3);
+      var cell5 = row.insertCell(4);
+      var cell6 = row.insertCell(5);
+
+      // Add some text to the new cells:
+      cell1.innerHTML = obj[j].time;
+      cell2.innerHTML = obj[j].logTypeStr;
+      cell3.innerHTML = obj[j].prName;
+      cell4.innerHTML = obj[j].modPath;
+      cell5.innerHTML = obj[j].prPath;
+      cell6.innerHTML = obj[j].logMsg;
+       }
+    }
+  }
+</script>
+
+<style>
+#table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+}
+
+#table td, #table th {
+  border: 1px solid #ddd;
+  text-align: left;
+  padding: 8px;
+  font-size:9pt;
+  word-wrap:break-word;
+}
+
+#table tr:nth-child(even){background-color: #f2f2f2}
+
+#table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #9999ff;
+  color: white;
+  font-size:11pt;
+
+}
+</style>
+
+</head>
+
+<body onload="checkFileAPI();">
+  <div id="container">
+    <h4>{LogFolderPathAndText} <font color="blue">{LogFolderPath}</font></h4>
+    <input type="file" onchange='readText(this)'/><br/><br/>
+    <h3>{LogContents}</h3>
+    <table id="table" style="width:100%">
+      <thead>
+        <tr>
+        <th width="10%">{ThDateTime}</th>
+        <th width="10%">{ThLogType}</th>
+        <th width="10%">{ThProcess}</th>
+        <th width="20%">{ThFilePath}</th>
+        <th width="20%">{ThProcessPath}</th>
+        <th width="5%">{ThEtc}</th>
+        </tr>
+      </thead>
+    <!-- Logs -->
+    </table>
+  </div>
+</body>
+
+</html>
