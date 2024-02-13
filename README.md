@@ -1,6 +1,5 @@
 # Ransomguard
-For more information, visit the [Ransomguard website](https://www.ransomguard.ca).
-For the latest installer, visit the [Ransomguard releases page](https://github.com/yourusername/yourproject/releases).
+For the latest installer, visit the (https://www.ransomguard.ca).
 
 ## Introduction
 
@@ -25,7 +24,7 @@ Ransomguard is a specialized program designed to combat variant malware such as 
 
 ## Installation
 
-1. Download the installer program from the [Ransomguard website](https://www.ransomguard.ca).
+1. Download the installer program from the Ransomguard website(https://www.ransomguard.ca).
 2. Run the installer and follow the on-screen instructions.
 3. After installation, an orange-shaped tray icon will appear in the lower right corner of your screen.
 
@@ -66,30 +65,6 @@ Encrypt or decrypt files with ease. Users can add files to the list, set encrypt
 
 Secure portable storage devices with drive encryption. Ransomguard provides real-time encryption and decryption for files stored in the virtual drive, ensuring data security.
 
-## User Interface Screenshots
-
-![Tray Icon](images/tray_icon.png)
-
-![Program Menu](images/program_menu.png)
-
-![Folder Lock Settings](images/folder_lock_settings.png)
-
-![File Extension Add Setting](images/file_extension_add_setting.png)
-
-![Basic Setting](images/basic_setting.png)
-
-![Spyware Detection and Setting](images/spyware_detection_and_setting.png)
-
-![IP Location View Screen](images/ip_location_view_screen.png)
-
-![Program Log](images/program_log.png)
-
-![Process Warning Screen](images/process_warning_screen.png)
-
-![Process Watch (Sandbox) Screen](images/process_watch_sandbox_screen.png)
-
-![Report Process](images/report_process.png)
-
 ## Compatibility
 
 - Windows 8.1 64-bit or higher
@@ -99,4 +74,34 @@ Secure portable storage devices with drive encryption. Ransomguard provides real
 
 While the source code cannot be fully open for security reasons, if you're interested in contributing to the development of Ransomguard, please contact us.
 
-For more information, visit the [Ransomguard website](https://www.ransomguard.ca).
+## Main work flow
+
+![Work_Flow1](images/work_flow1.jpg)
+
+![Work_Flow2](images/work_flow2.jpg)
+
+## User Interface Screenshots
+
+![Server CRM](images/ransomguard-crm.png)
+
+![Program Menu](images/menus_en.png)
+
+![Process Warning Screen](images/warning_en.png)
+
+![Folder Lock Settings](images/folderLock_en.png)
+
+![File Extension Add Setting](images/add_fileExts_en.png)
+
+![Basic Setting](images/basic_setting.png)
+
+![Spyware Detection and Setting](images/spywareMenu_en.png)
+
+![IP Location View Screen](images/IpLocation_en.png)
+
+![Program Log](images/logs_en.png)
+
+![Process Watch (Sandbox) Screen](images/sandbox_en.png)
+
+![SafeCase Screen](images/safecase1_en.png)
+
+![Settings (Sandbox) Screen](images/settings_en.png)
