@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appname>  
+  <version>1.0.0.0</version>  
+  <url>https://jamienas.ddns.net/ransomguard/app_update/1.0.0.0</url>
+  <components>
+  	<file filename="RansomGuard.exe" location="\" type="main" version="1.0.0.0" />
+  	<file filename="drvInstaller.exe" location="\" type="driver" version="1.0.0.0" />
+  </components>
+</appname>
