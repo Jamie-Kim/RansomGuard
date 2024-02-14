@@ -74,12 +74,6 @@ Secure portable storage devices with drive encryption. Ransomguard provides real
 
 While the source code cannot be fully open for security reasons, if you're interested in contributing to the development of Ransomguard, please contact us.
 
-## Main work flow
-
-![Work_Flow1](images/work_flow1.jpg)
-
-![Work_Flow2](images/work_flow2.jpg)
-
 ## User Interface Screenshots
 
 ![Server CRM](images/ransomguard-crm.png)
