@@ -1,5 +1,5 @@
 # Ransomguard
-For the latest installer, visit the (https://www.ransomguard.ca).
+For the latest installer, you can download from here installer/RansomGuard_v1.0.3.5.zip
 
 ## Introduction
 
