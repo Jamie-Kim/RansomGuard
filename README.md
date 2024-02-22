@@ -76,8 +76,6 @@ While the source code cannot be fully open for security reasons, if you're inter
 
 ## User Interface Screenshots
 
-![Server CRM](images/ransomguard-crm.png)
-
 ![Program Menu](images/menus_en.png)
 
 ![Process Warning Screen](images/warning_en.png)
