@@ -24,7 +24,7 @@ Ransomguard is a specialized program designed to combat variant malware such as 
 
 ## Installation
 
-1. Download the installer program from the Ransomguard website(https://www.ransomguard.ca).
+1. Download the installer program (installer/RansomGuard_v1.0.3.5.zip).
 2. Run the installer and follow the on-screen instructions.
 3. After installation, an orange-shaped tray icon will appear in the lower right corner of your screen.
 
