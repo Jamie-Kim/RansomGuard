@@ -76,24 +76,22 @@ While the source code cannot be fully open for security reasons, if you're inter
 
 ## User Interface Screenshots
 
-![Program Menu](images/menus_en.png)
+## User Interface Screenshots
 
-![Process Warning Screen](images/warning_en.png)
+![Program Menu](images/menus_en.png | width=250)
 
-![Folder Lock Settings](images/folderLock_en.png)
+![Process Warning Screen](images/warning_en.png | width=250)
 
-![File Extension Add Setting](images/add_fileExts_en.png)
+![Folder Lock Settings](images/folderLock_en.png | width=250)
 
-![Basic Setting](images/basic_setting.png)
+![File Extension Add Setting](images/add_fileExts_en.png | width=250)
 
-![Spyware Detection and Setting](images/spywareMenu_en.png)
+![Basic Setting](images/basic_setting.png | width=250)
 
-![IP Location View Screen](images/IpLocation_en.png)
+![Spyware Detection and Setting](images/spywareMenu_en.png | width=250)
 
-![Program Log](images/logs_en.png)
+![IP Location View Screen](images/IpLocation_en.png | width=250)
 
-![Process Watch (Sandbox) Screen](images/sandbox_en.png)
+![Program Log](images/logs_en.png | width=250)
 
-![SafeCase Screen](images/safecase1_en.png)
-
-![Settings (Sandbox) Screen](images/settings_en.png)
+![Process Watch (Sandbox) Screen](images/sandbox_en.png | width=250)
