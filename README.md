@@ -1,5 +1,6 @@
 # Ransomguard
-For the latest installer, you can download from installer/RansomGuard_v1.0.3.5.zip
+For the latest installer, you can download from [here](https://github.com/Jamie-Kim/RansomGuard/raw/main/installer/RansomGuard_v1.0.3.5.zip).
+
 
 ## Introduction
 
