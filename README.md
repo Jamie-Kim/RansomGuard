@@ -76,20 +76,20 @@ While the source code cannot be fully open for security reasons, if you're inter
 
 ## User Interface Screenshots
 
-<img src="images/menus_en.png" width="250">
+<img src="images/menus_en.png" width="400">
 
-<img src="images/warning_en.png" width="250">
+<img src="images/warning_en.png" width="400">
 
-<img src="images/folderLock_en.png" width="250">
+<img src="images/folderLock_en.png" width="400">
 
-<img src="images/add_fileExts_en.png" width="250">
+<img src="images/add_fileExts_en.png" width="400">
 
-<img src="images/basic_setting.png" width="250">
+<img src="images/basic_setting.png" width="400">
 
-<img src="images/spywareMenu_en.png" width="250">
+<img src="images/spywareMenu_en.png" width="400">
 
-<img src="images/IpLocation_en.png" width="250">
+<img src="images/IpLocation_en.png" width="400">
 
-<img src="images/logs_en.png" width="250">
+<img src="images/logs_en.png" width="400">
 
-<img src="images/sandbox_en.png" width="250">
+<img src="images/sandbox_en.png" width="400">
